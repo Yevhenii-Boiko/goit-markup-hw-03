@@ -51,13 +51,13 @@ a {
   text-decoration: none;
 }
 
-.container {
+/* .container {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 /* шапка сторінки */
 .header {
@@ -209,6 +209,15 @@ a {
   padding-top: 94px;
 }
 
+.feature-container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -250,13 +259,20 @@ a {
   padding-bottom: 94px;
 }
 
-.container h2 {
+.activity-container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.activity-container h2 {
   margin-top: 0;
   margin-bottom: 50px;
 }
 
 .activity-list {
-  /* width: 1200px; */
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -276,8 +292,17 @@ a {
   background-color: var(--section-bg-color);
 }
 
+.team-container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .team-title {
-  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .team-list {
@@ -333,7 +358,7 @@ a {
   padding-bottom: 94px;
 }
 
-.container {
+.portfolio-container {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
